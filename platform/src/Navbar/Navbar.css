@@ -1,0 +1,26 @@
+
+.nav-bar,.right-nav-elements{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 20px;
+    background-color: #524F4F;
+    color: white;
+
+    
+}
+
+.menu-img{
+    width: 50px;
+ 
+}
+.left-nav-elements{
+     text-align: center;
+}
+.right-nav-elements{
+    gap: 20px;
+    user-select: none;
+    cursor: pointer;
+    
+}
