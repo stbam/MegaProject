@@ -1,5 +1,7 @@
 import './Navbar.css'
 import BarsIcon from '../assets/bars.svg'
+import {Link}  from 'react-router-dom'
+
 const Navbar = () => {
     return ( 
     <div className='nav-bar'>
@@ -14,12 +16,14 @@ const Navbar = () => {
            
         </div>
         <div className="title">
-            Hunter College Resources
+           
+            <Link to="/"> Hunter College Resources</Link>
         </div>
         <div className="right-nav-elements">
-            <div>Annoucements</div>
-            <div>About</div>
-            <div>Where to start</div>
+        <Link to="/announcemnents">Announcements</Link>
+            <Link to="/about">About</Link>
+            <Link to="/wheretostart">Where to start</Link>
+            
         </div>
     </div> 
     

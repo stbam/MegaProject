@@ -5,7 +5,13 @@ body {
     background: #E3E3E3;
     height: 100vh;    
   }
-  
+  .image{
+    cursor: pointer;
+    display: block;
+margin: auto;
+    width: 150px;
+    height: 100px;
+  }
   .slider {
     background: white;
     box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
@@ -53,7 +59,7 @@ body {
   .slide {
     height: 100px;
     width: 250px;
-    
+
     
 
   }

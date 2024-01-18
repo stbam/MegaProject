@@ -4,7 +4,7 @@ import Navbar from './Navbar/NavBar';
 import './App.css'
 const App = () => {
   return (
-    <div>
+    <div className='app'>
        <Navbar/>
         <Slider/>
     </div>

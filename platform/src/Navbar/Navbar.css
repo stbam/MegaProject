@@ -8,7 +8,7 @@
     background-color: #524F4F;
     color: white;
 
-    
+
 }
 
 .menu-img{
@@ -22,5 +22,9 @@
     gap: 20px;
     user-select: none;
     cursor: pointer;
-    
+   
+}
+a{
+    text-decoration: none;
+    color: white;
 }
