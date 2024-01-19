@@ -10,8 +10,7 @@ const Navbar = () => {
             <div>
                 <div>
                     Menu
-                </div>
-                
+                </div>       
                 <div className='absolute'>
                     <Menu/>
                 </div>

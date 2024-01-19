@@ -1,0 +1,27 @@
+html{
+    background-color: black;
+}
+.search-container,
+.search-container > .left-search-options {
+    display:flex;   
+    gap: 10px;
+    background-color: #5E5A5A;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+   padding-left: 10px;
+   padding-right: 20px;
+}
+.params{
+   display: grid;
+   place-items:center;
+    background-color: aliceblue;
+    border-radius: 10px;
+    height: 26px;
+    padding: 5px;
+    user-select: none;
+    cursor: pointer;
+}
+#search{
+    width: 300px;
+}
