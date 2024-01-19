@@ -16,7 +16,9 @@
  
 }
 .left-nav-elements{
-     text-align: center;
+text-align: center;
+
+    
 }
 .right-nav-elements{
     gap: 20px;
@@ -28,3 +30,56 @@ a{
     text-decoration: none;
     color: white;
 }
+
+.absolute{
+    display: inline-block;
+
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+  }
+  /**/
+  .menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .menu-item {
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+  }
+  button{
+    width: 300px;
+    height: 50px;
+  }
+/*
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .menu-item {
+    margin: 0;
+    padding: 0;
+  }*/
+  

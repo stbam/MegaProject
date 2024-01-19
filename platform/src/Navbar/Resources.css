@@ -1,0 +1,15 @@
+.container{
+  display: grid;
+  
+}
+.left-half{
+    background-color: red;
+width: 500px;
+height: 400px;
+}
+
+.right-half{
+background-color: blue;
+width: 500px;
+height: 400px;
+}

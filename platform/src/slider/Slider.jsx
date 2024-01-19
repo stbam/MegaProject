@@ -1,13 +1,22 @@
 import './Slider.css' 
-import logo from '../assets/1.png'
+{/*import logo from '../assets/1.png'
 import logo2 from '../assets/2.png'
 import logo3 from '../assets/3.svg'
 import logo4 from '../assets/4.jpeg'
 import logo5 from '../assets/5.png'
 import logo6 from '../assets/6.png'
 import logo7 from '../assets/7.svg'
-import logo8 from '../assets/8.png'
+import logo8 from '../assets/8.png'*/}
 
+import logo from '../assets/svgAssets/1.svg'
+import logo2 from '../assets/svgAssets/2.svg'
+import logo3 from '../assets/svgAssets/3.svg'
+import logo4 from '../assets/svgAssets/4.svg'
+import logo5 from '../assets/svgAssets/5.svg'
+import logo6 from '../assets/svgAssets/6.svg'
+import logo7 from '../assets/svgAssets/7.svg'
+import logo8 from '../assets/svgAssets/8.svg'
+import logo9 from '../assets/svgAssets/9.svg'
 const Slider = () => {
   document.querySelectorAll('.slider').forEach(function (slider) {
     slider.addEventListener('click', function () {
@@ -47,7 +56,7 @@ const Slider = () => {
                 <img className='image' src={logo8}  alt="" />
             </div>
             <div className="slide">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+                <img src={logo9} height="100" width="250" alt="" />
             </div>
             <div className="slide">
                 <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />

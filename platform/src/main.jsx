@@ -4,6 +4,7 @@ import App from './App.jsx'
 import About from './Navbar/RightNavElements/About'
 import WhereToStart from './Navbar/RightNavElements/WhereToStart.jsx'
 import Announcements from './Navbar/RightNavElements/Announcements.jsx'
+import Resources from './Navbar/Resources.jsx'
 import { createBrowserRouter,RouterProvider } from 'react-router-dom'
 
 const router  = createBrowserRouter([ 
@@ -23,7 +24,8 @@ const router  = createBrowserRouter([
   path:"/announcemnents",
   element:<Announcements/>
 },{
-  
+  path:"/scrollsearch",
+  element:<Resources/>
 }
 
 ])

@@ -1,18 +1,22 @@
 import './Navbar.css'
 import BarsIcon from '../assets/bars.svg'
 import {Link}  from 'react-router-dom'
+import Menu from './Menu'
 
 const Navbar = () => {
     return ( 
     <div className='nav-bar'>
         <div className='left-nav-elements'>
-                 <div>
-                Menu
-            </div>
-            
             <div>
-                <img  className='menu-img' src={BarsIcon} alt="" />
+                <div>
+                    Menu
+                </div>
+                
+                <div className='absolute'>
+                    <Menu/>
+                </div>
             </div>
+                
            
         </div>
         <div className="title">
